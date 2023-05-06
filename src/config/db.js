@@ -14,3 +14,5 @@ export const pool = createPool({
     port: DB_PORT,
     database: DB_DATABASE
 });
+
+setTimeout(() => console.log(`\nConnected to database on ${DB_DATABASE}`), 1);
